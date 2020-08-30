@@ -32,7 +32,7 @@ import org.apache.spark.ml._
 import org.apache.spark.sql.functions._
 
 // Define our categorical and numeric columns
-val categoricals = Array("term", "home_ownership", "purpose", "addr_state","verification_status","application_type")
+val categoricals = Array("term", "home_ownership", "purpose", "addr_state","verification_status","application_type","age_group")
 val numerics = Array("loan_amnt","emp_length", "annual_inc","dti","delinq_2yrs","revol_util","total_acc","credit_length_in_years")
 
 // COMMAND ----------
